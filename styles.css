@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Petit+Formal+Script&family=Sorts+Mill+Goudy&display=swap');
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
+body{
+    background-color: #F2F2F2;
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    padding-top: 210px;
+}
+#tacos{
+    display: flex;
+}
+menu li a{
+    text-decoration: none;
+    color: #EB5428;
+    text-align: left;
+}
+#details{
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+}
+#details h2{
+    text-align: center;
+}
+#details dl{
+    display: inline-flex;
+    padding: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+h3{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+nav a, nav span,menu li,#social li,footer{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+p,dd{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+li,nav,input{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+dd{
+    display: inline;
+    text-align: left;
+}
+dt{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    text-align: end;
+}
+nav{
+    width: 1280px;
+    background-color: #ffffff;
+    color: #EB5428;
+    top: 0;
+    position: absolute;
+}
+nav li{
+    display: inline-flex;
+}
+nav li a{
+    text-decoration: none;
+    color: #EB5428;
+    text-align: center;
+}
+nav h2 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+nav img{
+    width: 50px;
+}
+header img{
+    width: 50%;
+}
+#search {
+    position: absolute;
+    top: 5%;
+    left: 42%;
+    width: 260px;
+    display: inline-flex;
+    flex-direction: row;
+}
+aside{
+    background-color: #7ABFBF;
+    padding: 20px;
+    display: flex;
+    width: inherit;
+}
+aside h3{
+    color: #0D0D0D;
+}
+.column{
+    flex: 30%;
+    padding: 5px;
+}
+#aside h2{
+    text-align: center;
+    background-color: #7ABFBF;
+    margin-bottom: 15px;
+
+}
+#combo{
+    display: flex;
+}
+footer img{
+    width: 10%;
+}
+footer h2, h3{
+    visibility: hidden;
+}
+figure p{
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #EB5428;
+}
+footer ul{
+    display: flex;
+    text-align: right;
+    padding-left: 800px;
+    
+}
